@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "alohablocks/cta-long-desc-stacked-image",
+	"name": "create-block/boilerplate",
 	"version": "0.1.0",
-	"title": "Aloha Blocks CTA - Long Desc Stacked Images",
+	"title": "Boilerplate",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "CTA for Aloha theme with Long description and stacked images.",
+	"description": "Example static block scaffolded with Create Block tool.",
 	"supports": {
 		"html": false
 	},

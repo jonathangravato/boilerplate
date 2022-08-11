@@ -2,8 +2,9 @@ import { registerBlockType } from '@wordpress/blocks';
 import './style.scss';
 import Edit from './edit';
 import save from './save';
+import metadata from './block.json';
 
-registerBlockType( 'alohablocks/cta-long-desc-stacked-image', {
+registerBlockType( metadata.name, {
 	edit: Edit,
 	save,
 } );
